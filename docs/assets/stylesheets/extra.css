@@ -52,16 +52,14 @@
   column-gap: .32rem;
 }
 
-.docs-footer__links a {
+.docs-footer a {
   display: inline-flex;
   align-items: center;
   min-block-size: 44px;
   text-underline-offset: .2em;
 }
 
-.docs-footer__links a:is(:focus-visible, :hover) { text-decoration: underline; }
-
-.docs-footer__credits .md-copyright__highlight { text-wrap: balance; }
+.docs-footer a:is(:focus-visible, :hover) { text-decoration: underline; }
 
 @media (min-width: 45em) {
   .docs-footer {
