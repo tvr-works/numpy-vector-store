@@ -1,0 +1,23 @@
+<div class="md-copyright docs-footer">
+  <div class="md-copyright__highlight docs-footer__legal">
+    <span>© 2026 TVR Works LLC</span>
+    <span class="docs-footer__links">
+      <span aria-hidden="true">·</span>
+      <a href="https://tvr.works/software">Software</a>
+      <span aria-hidden="true">·</span>
+      <a href="/privacy/">Privacy</a>
+    </span>
+  </div>
+  <div class="docs-footer__credits">
+    <div class="md-copyright__highlight docs-footer__links">
+      <a href="{{ config.repo_url | e }}">GitHub</a>
+      {% if config.copyright %}
+        <span aria-hidden="true">·</span>
+        {{ config.copyright }}
+      {% endif %}
+    </div>
+    {% if not config.extra.generator == false %}
+      Made with <a href="https://zensical.org/" target="_blank" rel="noopener">Zensical</a>
+    {% endif %}
+  </div>
+</div>
