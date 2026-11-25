@@ -34,6 +34,56 @@
 .md-typeset .doc-labels code { color: var(--md-default-fg-color--light); }
 .md-typeset .md-code__button { color: var(--md-default-fg-color--light); }
 
+.docs-footer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: .25rem 1.2rem;
+  text-align: center;
+}
+
+.docs-footer__legal,
+.docs-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: .32rem;
+}
+
+.docs-footer__links a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 44px;
+  text-underline-offset: .2em;
+}
+
+.docs-footer__links a:is(:focus-visible, :hover) { text-decoration: underline; }
+
+.docs-footer__credits .md-copyright__highlight { text-wrap: balance; }
+
+@media (min-width: 45em) {
+  .docs-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: start;
+  }
+
+  .docs-footer__legal { justify-content: flex-start; }
+  .docs-footer__credits { text-align: end; }
+}
+
+@media (width < 60em) {
+  /* Leave room for Zensical's floating table-of-contents button. */
+  .docs-footer { padding-inline-end: 2.25rem; }
+}
+
+@media (width < 45em) {
+  .docs-footer { padding-inline-start: 2.25rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
