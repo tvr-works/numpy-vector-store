@@ -34,6 +34,10 @@
 .md-typeset .doc-labels code { color: var(--md-default-fg-color--light); }
 .md-typeset .md-code__button { color: var(--md-default-fg-color--light); }
 
+.privacy-notice { max-inline-size: 34rem; }
+.privacy-notice > h1 { margin-block-end: .5em; }
+.privacy-notice__date { color: var(--md-default-fg-color--light); font-size: .7rem; }
+
 .docs-footer {
   display: flex;
   flex: 1;
