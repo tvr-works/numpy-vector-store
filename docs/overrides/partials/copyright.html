@@ -9,9 +9,13 @@
     </span>
   </div>
   <div class="docs-footer__credits">
-    {% if config.copyright %}
-      <div class="md-copyright__highlight">{{ config.copyright }}</div>
-    {% endif %}
+    <div class="md-copyright__highlight docs-footer__links">
+      <a href="{{ config.repo_url | e }}">GitHub</a>
+      {% if config.copyright %}
+        <span aria-hidden="true">·</span>
+        {{ config.copyright }}
+      {% endif %}
+    </div>
     {% if not config.extra.generator == false %}
       Made with <a href="https://zensical.org/" target="_blank" rel="noopener">Zensical</a>
     {% endif %}
