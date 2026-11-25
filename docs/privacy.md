@@ -29,6 +29,6 @@ NumPy Vector Store runs inside your Python application. Your application decides
 
 If you email us, we receive your email address, message, and any attachments. We use what you send to respond and follow up. Other people can read what you post in a public GitHub issue.
 
-For privacy questions, or to ask about or request deletion of information you sent us, email [tim@tvr.works](mailto:tim@tvr.works).
+For privacy questions, or to ask about or request deletion of information you sent us, email [support@tvr.works](mailto:support@tvr.works).
 
 </div>
