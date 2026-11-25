@@ -15,7 +15,7 @@ TVR Works LLC operates vectors.tvr.works. This notice covers visits to that webs
 
 ## Website visits
 
-Cloudflare helps deliver and protect this site. It processes request information such as your IP address and the pages you request. You can read the documentation without signing in. See [Cloudflare’s privacy policy](https://www.cloudflare.com/privacypolicy/).
+Cloudflare helps deliver and protect this site. It processes request information such as your IP address and the pages you request. Your browser may [send Cloudflare a report](https://developers.cloudflare.com/network-error-logging/) if it has trouble connecting to the site. You can read the documentation without signing in. See [Cloudflare’s privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 Your browser stores your choice of light, dark, or system appearance. Your browser searches a downloaded index as you type. When you open a result, the page request includes your search terms so the page can highlight them.
 
